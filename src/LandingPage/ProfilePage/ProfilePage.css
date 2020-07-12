@@ -1,0 +1,154 @@
+.parentDiv1{
+    height: 100%;
+    width:99%;
+    position: relative;
+   bottom: 750px;
+    /* border: 2px solid black; */
+}
+.logoImg{
+    position: absolute;
+    right: 220px;
+    height:40%;
+    border-radius: 50%
+}
+.logoName{
+    position: absolute;
+    right: 25px;
+    bottom: 38px;
+
+}
+.topHeading{
+position: relative;
+top: 2px;
+left: 390px;
+height: 50px;
+width:70%;
+border-bottom-style: groove ;
+border-bottom-color: #a08c8c41;
+border-bottom-width:1px;
+/* border: 1px solid black; */
+padding: 25px 0 20px 0px;
+margin: 10px;
+}
+.topProfile{
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+ right: 480px;
+font-size: 25px;
+}
+.wholeDiv{
+    position: absolute;
+    /* border: 2px solid red; */
+    height: 850px;
+    width:75%;
+    left: 375px;
+  
+    
+}
+.firstDiv{
+    position:absolute;
+    bottom:380px;
+    height: 420px;
+    left: 30px;
+    width:36%;
+    /* border: 2px solid red; */
+    border-bottom-style: groove ;
+border-bottom-color: #a08c8c41;
+border-bottom-width:1px;
+padding-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.secondDiv{
+    position: absolute;
+    top:480px;
+    height: 420px;
+    width :40%;
+    /* border: 2px dotted blue; */
+    font-size: 20px;
+    padding: 10px 0 0 0;
+   
+}
+.headingSecondDiv{
+    position: absolute;
+    color: #2e2929b2;
+ left:150px;
+ top:20px;
+ font-size: 22px;
+}
+.rightMapDiv{
+    position: absolute;
+    top: 50px;
+   left: 462px;
+    height: 700px;
+    width :59%;
+    /* border: 2px dotted rgb(105, 165, 82); */
+    border-left-style: groove ;
+border-left-color: #a08c8c41;
+border-left-width:1px;
+}
+.headingRightMapDiv{
+    position: absolute;
+    left: 100px;
+    color: #2e2929b2;
+    font-size: 22px;
+}
+.blockRightMapDiv{
+    text-align: left;
+    margin-left: 40px;
+    left: 150px;
+    font-size: 20px;
+}
+.color2{
+    position: absolute;
+    color: #2e2929b2;
+ left:150px;
+ top:155px;
+ font-size: 22px;
+}
+
+
+.thirdDiv{
+    position: absolute;
+    top:220px;
+    left: 50px;
+    
+    height: 180px;
+  width:70% ;
+    /* border: 2px dotted pink; */
+    font-size: 20px;
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 60%;
+}
+
+/* .firstDiv{
+    position: relative;
+    margin-left: none;
+    left: 410px;
+    top: 80px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+border: 1px solid black;
+/* border-bottom-style: groove ;
+border-bottom-color: #a08c8c41;
+border-bottom-width:1px; */
+/* width: 28%;
+text-align: center;
+} */ */
+
+/* .secondDiv{
+    position: relative;
+    right: 50px;
+} */
+
+
+
+.color1{
+    color: #a08c8c7c;
+}
+

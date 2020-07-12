@@ -1,0 +1,69 @@
+.parentDiv{
+    height: 1000px;
+    width:100%;
+    /* border: 2px solid black; */
+}
+
+.blueBox{
+    position: relative;
+    top: 100px;
+    height: 820px;
+    width:20%;
+    border: 0.5px solid black;
+    margin-left: 50px;
+    border-radius: 25px;
+    background-color: rgb(92, 14, 238);
+   
+}
+.profileDiv1{
+    position: absolute;
+    height: 30px;
+    width:70%;
+    top:25%;
+    left: 15%;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+.postsDiv2{
+    position: absolute;
+    height: 30px;
+    width:70%;
+    top:35%;
+    left: 15%;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+.galleryDiv2{
+    position: absolute;
+    height: 30px;
+    width:70%;
+    top:45%;
+    left: 15%;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+.toDoDiv2{
+    position: absolute;
+    height: 30px;
+    width:70%;
+    top:55%;
+    left: 15%;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
