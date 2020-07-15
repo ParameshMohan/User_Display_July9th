@@ -10,7 +10,8 @@ const initialState = {
     navigatePosts: false,
     navigateGallery: false,
     navigateToDo: false,
-    geo:{}
+    geo:{},
+
 }
 
 
@@ -19,7 +20,8 @@ const reducer = (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.SET_USERS: return {
             ...state,
-            posts:action.users
+            posts:action.users,
+           
         }
 
         case actionTypes.PROFILE_USERS:return{

@@ -23,7 +23,8 @@ class FirstPage extends Component {
       return (
 
         <div className="item" key={post.id}>
-          <h4 onClick={() => { this.userSelectHandler(post.id) }}><a href='#'>{post.name}</a></h4>
+          <img src={post.profilepicture} className="logoImgFirst" alt="logoImage" />
+          <h4 onClick={() => { this.userSelectHandler(post.id)  }}className="userName">{post.name}</h4>
         </div>
 
       )

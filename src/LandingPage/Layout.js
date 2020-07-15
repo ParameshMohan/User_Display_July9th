@@ -21,17 +21,17 @@ class Layout extends Component {
 
                 <div className="blueBox">
                     <div className="profileDiv1"  >
-                        <NavLink to="/landingPage/profilePage/" > Profile</NavLink>
+                        <NavLink to="/landingPage/profilePage/" className="active" className="inactive" > Profile</NavLink>
 
                     </div>
                     <div className="postsDiv2"   >
-                        <NavLink to="/landingPage/posts" > Posts</NavLink>
+                        <NavLink to="/landingPage/posts" className="active" className="inactive"> Posts</NavLink>
                     </div>
                     <div className="galleryDiv2">
-                    <NavLink to="/landingPage/gallery" > Gallery</NavLink>
+                    <NavLink to="/landingPage/gallery"className="active" className="inactive" > Gallery</NavLink>
                      </div>
                     <div className="toDoDiv2">
-                    <NavLink to="/landingPage/toDo" > ToDo</NavLink>
+                    <NavLink to="/landingPage/toDo"className="active" className="inactive" > ToDo</NavLink>
                     </div>
                 </div>
 

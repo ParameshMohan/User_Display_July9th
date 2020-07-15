@@ -25,55 +25,60 @@ class ProfilePage extends Component {
                         <span className="color2"> {this.props.profile_user.name}</span>
                         <br></br>
                         <div className="thirdDiv">
+                            <dl>
+                                <dt>Username</dt><dd>{this.props.profile_user.name}</dd>
+                                <br></br>
 
-                            Username : {this.props.profile_user.name}
-                            <br></br>
-                            <br></br>
-                            e-mail  : {this.props.profile_user.email}
-                            <br></br>
-                            <br></br>
-                           Phone    : {this.props.profile_user.phone}
-                            <br></br>
-                            <br></br>
-                           Website  :{this.props.profile_user.website}
+                                <dt>e-mail</dt><dd>{this.props.profile_user.email}</dd>
+                                <br></br>
+
+                                <dt>Phone</dt><dd>{this.props.profile_user.phone} </dd>
+                                <br></br>
+
+                                <dt>Website</dt><dd>{this.props.profile_user.website}</dd>
+                            </dl>
                         </div>
 
 
                     </div>
 
                     <div className="secondDiv">
-
-                        <span className="headingSecondDiv">Company</span>
+                  
+                        <div>
+                            <label className="labelcls">Company Name :</label>
+                            <label className="labelvl">{this.props.company.name}</label>
+                        </div>
                         <br></br>
+                        <div>
+                        <label className="labelcls">Catch Phrase :</label>
+                        <label className="labelvl">{this.props.company.catchPhrase}</label>
+                        </div>
                         <br></br>
-                              CompanyName   : {this.props.company.name}
-                        <br></br>
-                        <br></br>
-                        CatchPhrase  : {this.props.company.catchPhrase}
-                        <br></br>
-                        <br></br>
-                                Bs   : {this.props.company.bs}
-
+                        <div>
+                        <label className="labelcls">bs :</label>
+                        <label className="labelvl">{this.props.company.bs}</label>
+                        </div>
+                        
                     </div>
                     <div className="rightMapDiv">
                         <span className="headingRightMapDiv">Address </span>
                         <br></br>
                         <br></br>
                         <div className="blockRightMapDiv">
-                            Street : {this.props.address.street}
+                            <dt>   Street </dt><dd> {this.props.address.street}</dd>
                             <br></br>
+
+                            <dt> Suite </dt> <dd> {this.props.address.suite}</dd>
                             <br></br>
-                        Suite  : {this.props.address.suite}
+
+                            <dt>City </dt>   <dd>{this.props.address.city}</dd>
                             <br></br>
-                            <br></br>
-                        City   : {this.props.address.city}
-                            <br></br>
-                            <br></br>
-                            Zipcode  : {this.props.address.zipcode}
+
+                            <dt>Zipcode </dt>  <dd>{this.props.address.zipcode}</dd>
                         </div>
-                                <Map />
-        <span>lat :{this.props.geo.lat} Lng: {this.props.geo.lat}</span> 
-   
+                        <Map />
+                        <span>lat :{this.props.geo.lat} Lng: {this.props.geo.lat}</span>
+
                     </div>
 
                 </div>

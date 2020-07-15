@@ -1,5 +1,5 @@
 .parentFirstPage{
-   height:750px ;
+   height:718px ;
 border:2px solid black;
 background-image: linear-gradient(blue , white);
 }
@@ -30,9 +30,31 @@ background-image: linear-gradient(blue , white);
    
     position: absolute;
     bottom: 30px;
-    
-}
 
+}
+.item{
+    display: inline-block;
+    /* border: 1px solid red; */
+    border-bottom-style: groove ;
+border-bottom-color: #a08c8c41;
+border-bottom-width:1px;
+width: 90%;
+padding-bottom: 2%;
+padding-top: 2%;
+
+}
+.logoImgFirst{
+    height:15%;
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+}
+.userName{
+
+position: absolute;
+left: 110px;
+color: #2e2929b2;
+}
 #divList::-webkit-scrollbar-track
 {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -49,6 +71,6 @@ background-image: linear-gradient(blue , white);
 #divList::-webkit-scrollbar-thumb
 {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #555;
+    -webkit-box-shadow: inset 0 0 6px rgba(95, 91, 91, 0.048);
+    background-color: rgba(194, 188, 188, 0.959);
 }
